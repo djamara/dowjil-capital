@@ -5,7 +5,7 @@
 - Cloner le projet dans un répertoire dans votre répertoire de travail ( pas besoin nécessaire de le placer dans le www de wamp server ou autre )
 
 ```bash
-git clone https://github.com/Christianzer/dowjil-capital.git
+git clone git@gitlab.com:christianaude2017/dowjil-capital.git
 ```
 #### 2 - Installer les dépendances de laravel ( obligatoire )
 - Installer les dépendances de laravel : 
