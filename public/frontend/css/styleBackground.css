@@ -1,8 +1,8 @@
 body{
-    
-/*background-image: url({{asset('frontend/images/logo.png')}}) ;*/ 
-background-image: url('/frontend/images/logo.png') ; 
+
+/*background-image: url({{asset('frontend/images/logo.png')}}) ;*/
+background-image: url('public/frontend/images/logo.PNG') ;
 background-repeat: no-repeat;
-background-position: 50% 40%; 
+background-position: 50% 40%;
 background-size: auto;
 }
