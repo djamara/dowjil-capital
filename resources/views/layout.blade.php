@@ -27,7 +27,7 @@
     <div class="container">
         <div class="row no-gutters d-flex align-items-center align-items-stretch">
             <div class="col-md-4 d-flex align-items-center py-4">
-                <a class="navbar-brand" href="{{route('/')}}">DOWJIL-CAPITAL</a>
+                <a class="navbar-brand" href="{{route('/')}}"><img src="{{asset('/frontend/images/logo.PNG')}}" alt="" style="width: 36%"></a>
             </div>
             <div class="col-lg-8 d-block">
                 <div class="row d-flex">
@@ -35,14 +35,14 @@
                         <div class="icon d-flex justify-content-center align-items-center"><span class="icon-paper-plane"></span></div>
                         <div class="text">
                             <span>Email</span>
-                            <span>youremail@email.com</span>
+                            <span>infos@dowjilcapital.com</span>
                         </div>
                     </div>
                     <div class="col-md d-flex topper align-items-center align-items-stretch py-md-4">
                         <div class="icon d-flex justify-content-center align-items-center"><span class="icon-phone2"></span></div>
                         <div class="text">
-                            <span>Call</span>
-                            <span>Call Us: + 1235 2355 98</span>
+                            <span>Appel</span>
+                            <span>Appelez-nous: +225 08658931</span>
                         </div>
                     </div>
                 </div>
@@ -80,9 +80,9 @@
                     <h2 class="ftco-heading-2">Vous avez des questions?</h2>
                     <div class="block-23 mb-3">
                         <ul>
-                            <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-                            <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
-                            <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
+                            <li><span class="icon icon-map-marker"></span><span class="text">Cocody Riviera Palmeraie Rond Point Palmeraie 06 BP 865 ABIDJAN 06</span></li>
+                            <li><a href="#"><span class="icon icon-phone"></span><span class="text">+225 08658931</span></a></li>
+                            <li><a href="#"><span class="icon icon-envelope"></span><span class="text">infos@dowjilcapital.com</span></a></li>
                         </ul>
                     </div>
                 </div>

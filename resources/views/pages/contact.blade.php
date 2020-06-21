@@ -22,19 +22,21 @@
                             <div class="icon">
                                 <span class="icon-map-o"></span>
                             </div>
-                            <p><span>Adresse:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
+                            <p><span>Adresse:</span>
+                                Cocody Riviera Palmeraie Rond Point Palmeraie
+                                06 BP 865 ABIDJAN 06</p>
                         </div>
                         <div class="col-md-4 text-center border-height py-4">
                             <div class="icon">
                                 <span class="icon-mobile-phone"></span>
                             </div>
-                            <p><span>Telephone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
+                            <p><span>Telephone:</span> <a href="tel://">+225 08658931</a></p>
                         </div>
                         <div class="col-md-4 text-center py-4">
                             <div class="icon">
                                 <span class="icon-envelope-o"></span>
                             </div>
-                            <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+                            <p><span>Email:</span> <a href="mail://infos@dowjilcapital.com">infos@dowjilcapital.com</a></p>
                         </div>
                     </div>
                 </div>
