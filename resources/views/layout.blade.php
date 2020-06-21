@@ -27,7 +27,7 @@
     <div class="container">
         <div class="row no-gutters d-flex align-items-center align-items-stretch">
             <div class="col-md-4 d-flex align-items-center py-4">
-                <a class="navbar-brand" href="{{route('/')}}">Consolution</a>
+                <a class="navbar-brand" href="{{route('/')}}">DOWJIL-CAPITAL</a>
             </div>
             <div class="col-lg-8 d-block">
                 <div class="row d-flex">
@@ -45,13 +45,6 @@
                             <span>Call Us: + 1235 2355 98</span>
                         </div>
                     </div>
-                    <div class="col-md topper d-flex align-items-center justify-content-end">
-                        <p class="mb-0 d-block">
-                            <a href="#" class="btn py-2 px-3 btn-primary">
-                                <span>Free Consulting</span>
-                            </a>
-                        </p>
-                    </div>
                 </div>
             </div>
         </div>
@@ -62,18 +55,12 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="oi oi-menu"></span> Menu
         </button>
-        <form action="#" class="searchform order-lg-last">
-            <div class="form-group d-flex">
-                <input type="text" class="form-control pl-3" placeholder="Search">
-                <button type="submit" placeholder="" class="form-control search"><span class="ion-ios-search"></span></button>
-            </div>
-        </form>
         <div class="collapse navbar-collapse" id="ftco-nav">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item"><a href="{{route('/')}}" class="nav-link pl-0">Accueil</a></li>
-                <li class="nav-item"><a href="{{route('a-propos')}}" class="nav-link">A propos </a></li>
-                <li class="nav-item"><a href="{{route('services')}}" class="nav-link">Services</a></li>
-                <li class="nav-item"><a href="{{route('contacts')}}" class="nav-link">Contact</a></li>
+                <li class="nav-item"><!-- <a href="{{route('/')}}" class="nav-link pl-0"> --><a href="#" class="nav-link pl-0">Accueil</a></li>
+                <li class="nav-item"><!-- <a href="{{route('a-propos')}}" class="nav-link"> --><a href="#" class="nav-link">A propos </a></li>
+                <li class="nav-item"><!-- <a href="{{route('services')}}" class="nav-link"> --><a href="#" class="nav-link">Services</a></li>
+                <li class="nav-item"><!-- <a href="{{route('contacts')}}" class="nav-link"> --><a href="#" class="nav-link">Contact</a></li>
             </ul>
         </div>
     </div>
@@ -90,7 +77,7 @@
         <div class="row mb-5">
             <div class="col-md-6 col-lg-3">
                 <div class="ftco-footer-widget mb-5">
-                    <h2 class="ftco-heading-2">Have a Questions?</h2>
+                    <h2 class="ftco-heading-2">Vous avez des questions?</h2>
                     <div class="block-23 mb-3">
                         <ul>
                             <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
@@ -101,7 +88,8 @@
                 </div>
             </div>
             <div class="col-md-6 col-lg-3">
-                <div class="ftco-footer-widget mb-5">
+                <!--
+                 <div class="ftco-footer-widget mb-5">
                     <h2 class="ftco-heading-2">Recent Blog</h2>
                     <div class="block-21 mb-4 d-flex">
                         <a class="blog-img mr-4" style="background-image: url({{asset('frontend/images/image_1.jpg')}});"></a>
@@ -126,30 +114,33 @@
                         </div>
                     </div>
                 </div>
+                 -->
+
             </div>
             <div class="col-md-6 col-lg-3">
                 <div class="ftco-footer-widget mb-5 ml-md-4">
-                    <h2 class="ftco-heading-2">Links</h2>
+                    <h2 class="ftco-heading-2">Liens</h2>
                     <ul class="list-unstyled">
-                        <li><a href="{{route('/')}}"><span class="ion-ios-arrow-round-forward mr-2"></span>Accueil</a></li>
-                        <li><a href="{{route('a-propos')}}"><span class="ion-ios-arrow-round-forward mr-2"></span>A propos </a></li>
-                        <li><a href="{{route('services')}}"><span class="ion-ios-arrow-round-forward mr-2"></span>Services</a></li>
-                        <li><a href="{{route('contacts')}}"><span class="ion-ios-arrow-round-forward mr-2"></span>Contact</a></li>
+                        <li><!-- <a href="{{route('/')}}"> --><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Accueil</a></li>
+                        <li><!-- <a href="{{route('a-propos')}}"> --><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>A propos </a></li>
+                        <li><!-- <a href="{{route('services')}}"> --><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Services</a></li>
+                        <li><!-- <a href="{{route('contacts')}}"> --><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Contact</a></li>
                     </ul>
                 </div>
             </div>
             <div class="col-md-6 col-lg-3">
                 <div class="ftco-footer-widget mb-5">
-                    <h2 class="ftco-heading-2">Subscribe Us!</h2>
+                    <h2 class="ftco-heading-2">Abonnez-nous!</h2>
                     <form action="#" class="subscribe-form">
                         <div class="form-group">
-                            <input type="text" class="form-control mb-2 text-center" placeholder="Enter email address">
-                            <input type="submit" value="Subscribe" class="form-control submit px-3">
+                            <input type="text" class="form-control mb-2 text-center" placeholder="Entrer votre adresse mail">
+                            <input type="submit" value="SOUSCRIRE" class="form-control submit px-3">
                         </div>
                     </form>
                 </div>
                 <div class="ftco-footer-widget mb-5">
-                    <h2 class="ftco-heading-2 mb-0">Connect With Us</h2>
+                    <h2 class="ftco-heading-2 mb-0">
+                        Connecte-toi avec nous</h2>
                     <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
                         <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
                         <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>

@@ -6,8 +6,8 @@
         <div class="container">
             <div class="row no-gutters slider-text align-items-center justify-content-center">
                 <div class="col-md-9 ftco-animate text-center">
-                    <h1 class="mb-2 bread">Contact Us</h1>
-                    <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Contact <i class="ion-ios-arrow-forward"></i></span></p>
+                    <h1 class="mb-2 bread">Contactez nous</h1>
+                    <p class="breadcrumbs"><span class="mr-2"><a href="#">Accueil<i class="ion-ios-arrow-forward"></i></a></span> <span>Contact <i class="ion-ios-arrow-forward"></i></span></p>
                 </div>
             </div>
         </div>
@@ -22,13 +22,13 @@
                             <div class="icon">
                                 <span class="icon-map-o"></span>
                             </div>
-                            <p><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
+                            <p><span>Adresse:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
                         </div>
                         <div class="col-md-4 text-center border-height py-4">
                             <div class="icon">
                                 <span class="icon-mobile-phone"></span>
                             </div>
-                            <p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
+                            <p><span>Telephone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
                         </div>
                         <div class="col-md-4 text-center py-4">
                             <div class="icon">
@@ -41,22 +41,25 @@
             </div>
             <div class="row block-9 justify-content-center mb-5">
                 <div class="col-md-8 mb-md-5">
-                    <h2 class="text-center">If you got any questions <br>please do not hesitate to send us a message</h2>
-                    <form action="#" class="bg-light p-5 contact-form">
+                    <h2 class="text-center">
+                        Si vous avez des questions
+                       <br> n'hésitez pas à nous envoyer un message </h2>
+                    <form action="#" class="bg-light p-5 contact-form" method="post">
+                        {{ csrf_field() }}
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Your Name">
+                            <input type="text" name="nom" class="form-control" placeholder="Votre Nom" required>
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Your Email">
+                            <input type="email" name="email" class="form-control" placeholder="Votre Email" required>
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Subject">
+                            <input type="text" name="sujet" class="form-control" placeholder="Sujet" required>
                         </div>
                         <div class="form-group">
-                            <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+                            <textarea name="message" id="" cols="30"  rows="7" class="form-control" placeholder="Message" required></textarea>
                         </div>
                         <div class="form-group">
-                            <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+                            <button type="submit" class="btn btn-primary py-3 px-5">Envoyer Message</button>
                         </div>
                     </form>
 
@@ -65,7 +68,9 @@
         </div>
     </section>
 
-    <section class="ftco-section ftco-no-pb ftco-no-pt">
+    <!--
+
+     <section class="ftco-section ftco-no-pb ftco-no-pt">
         <div class="container-fluid px-0">
             <div class="row justify-content-center">
                 <div class="col-md-12">
@@ -74,4 +79,7 @@
             </div>
         </div>
     </section>
+
+     -->
+
 @endsection
