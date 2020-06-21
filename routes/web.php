@@ -19,7 +19,8 @@ Route::get('/', function () {
 */
 
 //Frontend Controller
-Route::get('/','Frontend\AccueilController@index')->name('/');
+//Route::get('/','Frontend\AccueilController@index')->name('/');
 Route::get('/A-Propos','Frontend\AproposController@index')->name('a-propos');
+Route::get('/','Frontend\LoadingController@index')->name('/');
 Route::get('/Services','Frontend\ServiceController@index')->name('services');
 Route::get('/Contacts','Frontend\ContactController@index')->name('contacts');
