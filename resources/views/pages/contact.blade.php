@@ -23,14 +23,15 @@
                                 <span class="icon-map-o"></span>
                             </div>
                             <p><span>Adresse:</span>
-                                Cocody Riviera Palmeraie Rond Point Palmeraie
-                                06 BP 865 ABIDJAN 06</p>
+                                Abidjan 2 plateaux, 7ème tranche Immeuble les Oscars</p>
                         </div>
                         <div class="col-md-4 text-center border-height py-4">
                             <div class="icon">
                                 <span class="icon-mobile-phone"></span>
                             </div>
-                            <p><span>Telephone:</span> <a href="tel://">+225 08658931</a></p>
+                            <p><span>Telephone:</span> <a href="tel://">+225 01032010</a> <br>
+                                <a href="tel://">+225 59067594</a>
+                            </p>
                         </div>
                         <div class="col-md-4 text-center py-4">
                             <div class="icon">

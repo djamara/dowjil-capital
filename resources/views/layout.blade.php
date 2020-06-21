@@ -42,7 +42,7 @@
                         <div class="icon d-flex justify-content-center align-items-center"><span class="icon-phone2"></span></div>
                         <div class="text">
                             <span>Appel</span>
-                            <span>Appelez-nous: +225 08658931</span>
+                            <span>Appelez-nous: +225 01032010</span>
                         </div>
                     </div>
                 </div>
@@ -153,7 +153,7 @@
             <div class="col-md-12 text-center">
 
                 <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This website is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Miky, the brain at work</a>
                     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
             </div>
         </div>
