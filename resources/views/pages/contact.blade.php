@@ -23,13 +23,13 @@
                                 <span class="icon-map-o"></span>
                             </div>
                             <p><span>Adresse:</span>
-                                Abidjan 2 plateaux, 7ème tranche Immeuble les Oscars</p>
+                            Cocody Riviera Palmeraie carrefour GUIRAUD</p>
                         </div>
                         <div class="col-md-4 text-center border-height py-4">
                             <div class="icon">
                                 <span class="icon-mobile-phone"></span>
                             </div>
-                            <p><span>Telephone:</span> <a href="tel://">+225 01032010</a> <br>
+                            <p><span>Telephone:</span> <a href="tel://">+225 23498101</a> <br>
                                 <a href="tel://">+225 59067594</a>
                             </p>
                         </div>

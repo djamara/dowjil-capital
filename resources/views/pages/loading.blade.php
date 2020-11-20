@@ -15,7 +15,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <script src="{{asset('frontend/js/jquery-loading.js')}}"></script>
 </head>
-<body class="" id="menu" style="background-image: url({{asset('frontend/images/logo.PNG')}});background-repeat: no-repeat;background-position: 50% 40%;background-size: auto;">
+<body class="" id="menu" style="background-image: url({{asset('frontend/images/logo.PNG')}});background-repeat: no-repeat;background-position: 50% 40%;background-size: ;">
 <div class="row col-lg-12" style="height: 100%">
 <!--            <img conta="img-fluid" src="{{asset('frontend/images/bg_2.jpg')}}">-->
     <div class="container-fluid">

@@ -23,7 +23,7 @@
 </head>
 <body>
 
-<div class="bg-top navbar-light">
+<div class="bg-top navbar-light" style="background-color: #9da2bd">
     <div class="container">
         <div class="row no-gutters d-flex align-items-center align-items-stretch">
             <div class="col-md-4 d-flex align-items-center py-4">
@@ -33,16 +33,16 @@
                 <div class="row d-flex">
                     <div class="col-md d-flex topper align-items-center align-items-stretch py-md-4">
                         <div class="icon d-flex justify-content-center align-items-center"><span class="icon-paper-plane"></span></div>
-                        <div class="text">
+                        <div class="text" style="color: white">
                             <span>Email</span>
                             <span>infos@dowjilcapital.com</span>
                         </div>
                     </div>
                     <div class="col-md d-flex topper align-items-center align-items-stretch py-md-4">
                         <div class="icon d-flex justify-content-center align-items-center"><span class="icon-phone2"></span></div>
-                        <div class="text">
+                        <div class="text" style="color: white">
                             <span>Appel</span>
-                            <span>Appelez-nous: +225 01032010</span>
+                            <span>Appelez-nous: +225 59067594</span>
                         </div>
                     </div>
                 </div>
@@ -51,16 +51,17 @@
     </div>
 </div>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar">
+    <div class="col-sm-8"></div>
     <div class="container d-flex align-items-center">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="oi oi-menu"></span> Menu
         </button>
         <div class="collapse navbar-collapse" id="ftco-nav">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item"><!-- <a href="{{route('/')}}" class="nav-link pl-0"> --><a href="#" class="nav-link pl-0">Accueil</a></li>
-                <li class="nav-item"><!-- <a href="{{route('a-propos')}}" class="nav-link"> --><a href="#" class="nav-link">A propos </a></li>
-                <li class="nav-item"><!-- <a href="{{route('services')}}" class="nav-link"> --><a href="#" class="nav-link">Services</a></li>
-                <li class="nav-item"><!-- <a href="{{route('contacts')}}" class="nav-link"> --><a href="#" class="nav-link">Contact</a></li>
+                <li class="nav-item"><a href="{{route('/')}}" class="nav-link pl-0"><!-- <a href="#" class="nav-link pl-0"> -->Accueil</a></li>
+                <li class="nav-item"><a href="{{route('a-propos')}}" class="nav-link"><!-- <a href="#" class="nav-link"> -->A propos </a></li>
+                <li class="nav-item"><a href="{{route('services')}}" class="nav-link"><!-- <a href="#" class="nav-link"> -->Services</a></li>
+                <li class="nav-item"><a href="{{route('contacts')}}" class="nav-link"><!-- <a href="#" class="nav-link"> -->Contact</a></li>
             </ul>
         </div>
     </div>
@@ -72,7 +73,7 @@
 @yield('pages')
 
 
-<footer class="ftco-footer ftco-bg-dark ftco-section">
+<footer class="ftco-footer ftco-bg-dark ftco-section" style="height: 520px">
     <div class="container">
         <div class="row mb-5">
             <div class="col-md-6 col-lg-3">
@@ -80,8 +81,8 @@
                     <h2 class="ftco-heading-2">Vous avez des questions?</h2>
                     <div class="block-23 mb-3">
                         <ul>
-                            <li><span class="icon icon-map-marker"></span><span class="text">Cocody Riviera Palmeraie Rond Point Palmeraie 06 BP 865 ABIDJAN 06</span></li>
-                            <li><a href="#"><span class="icon icon-phone"></span><span class="text">+225 08658931</span></a></li>
+                            <li><span class="icon icon-map-marker"></span><span class="text">Cocody Riviera Palmeraie carrefour GUIRAUD</span></li>
+                            <li><a href="#"><span class="icon icon-phone"></span><span class="text">+225 59067594</span></a></li>
                             <li><a href="#"><span class="icon icon-envelope"></span><span class="text">infos@dowjilcapital.com</span></a></li>
                         </ul>
                     </div>

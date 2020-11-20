@@ -17,10 +17,13 @@ Route::get('/', function () {
     return view('welcome');
 });
 */
+/*Route::get('/', function () {
+    return view('pages/accueil');
+})->where('lang', implode('|', array_flip(config('app.languages'))));*/
 
 //Frontend Controller
-//Route::get('/','Frontend\AccueilController@index')->name('/');
+Route::get('/','Frontend\AccueilController@index')->name('/');
 Route::get('/A-Propos','Frontend\AproposController@index')->name('a-propos');
-Route::get('/','Frontend\LoadingController@index')->name('/');
+//Route::get('/','Frontend\LoadingController@index')->name('/');
 Route::get('/Services','Frontend\ServiceController@index')->name('services');
 Route::get('/Contacts','Frontend\ContactController@index')->name('contacts');
