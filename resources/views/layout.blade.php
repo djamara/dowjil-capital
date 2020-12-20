@@ -42,7 +42,7 @@
                         <div class="icon d-flex justify-content-center align-items-center"><span class="icon-phone2"></span></div>
                         <div class="text" style="color: white">
                             <span>Appel</span>
-                            <span>Appelez-nous: +225 59067594</span>
+                            <span>Appelez-nous: +225 01014391</span>
                         </div>
                     </div>
                 </div>

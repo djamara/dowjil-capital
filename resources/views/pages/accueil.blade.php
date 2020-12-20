@@ -88,7 +88,7 @@
         <div class="container">
             <div class="row justify-content-center mb-5">
                 <div class="col-md-10 text-center heading-section heading-section-white ftco-animate">
-                    <h2 class="mb-0">You Always Get the Best Guidance</h2>
+                    <h2 class="mb-0">Nos présentons toujours les meilleurs performances</h2>
                 </div>
             </div>
         </div>
@@ -110,8 +110,10 @@
                     <div class="services-2 noborder-left text-center ftco-animate">
                         <div class="icon mt-2 d-flex justify-content-center align-items-center"><span class="flaticon-analysis"></span></div>
                         <div class="text media-body">
-                            <h3>{{$service->service_libelle}}</h3>
-                            <p>{{$service->service_description}}</p>
+                            <a href="Services/{{$service->service_id}}">
+                                <h3>{{$service->service_libelle}}</h3>
+                                <p>{{$service->service_description}}</p>
+                            </a>
                         </div>
                     </div>
                 </div>
