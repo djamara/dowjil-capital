@@ -7,7 +7,7 @@
             <div class="row no-gutters slider-text align-items-center justify-content-center">
                 <div class="col-md-9 ftco-animate text-center">
                     <h1 class="mb-2 bread">Services</h1>
-                    <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span><a href="/Services"><span>Services <i class="ion-ios-arrow-forward"></i></span></a> </p>
+                    <p class="breadcrumbs"><span class="mr-2"><a href="/">Accueil <i class="ion-ios-arrow-forward"></i></a></span><a href="/Services"><span>Services <i class="ion-ios-arrow-forward"></i></span></a> </p>
                 </div>
             </div>
         </div>
@@ -17,13 +17,13 @@
         <div class="container">
             <div class="row d-flex">
                 <div class="col-lg-4">
-                    <img src="{{asset('uploads/blanche.jpg')}}" width="100%">
+                    <img src="{{$service->images}}" width="100%">
                 </div>
                 <div class="col-lg-7">
-                    <h3><strong>{{strtoupper($service->service_libelle)}}</strong></h3>
+                    <h3><strong>{{ucfirst($service->service_libelle)}}</strong></h3>
                     <hr style="background-color: red; height: 1px">
                     <p>
-                        {!! $service->service_description !!}
+                        {!! $service->service_detail !!}
                     </p>
                 </div>
             </div>

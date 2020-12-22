@@ -77,6 +77,15 @@ class ServiceCrudController extends CrudController
          */
 
         CRUD::addField([
+            'label' => "Profile Image",
+            'name' => "images",
+            'type' => 'image',
+            'crop' => true, // set to true to allow cropping, false to disable
+            'aspect_ratio' => 0, // ommit or set to 0 to allow any aspect ratio
+            // 'disk'      => 's3_bucket', // in case you need to show images from a different disk
+            // 'prefix'    => 'uploads/images/profile_pictures/' // in case your db value is only the file name (no path), you can use this to prepend your path to the image src (in HTML), before it's shown to the user;
+        ]);
+        CRUD::addField([
             'name'=>'service_libelle',
             'type'=>'text',
             'label'=>'Nom du service'
@@ -85,6 +94,11 @@ class ServiceCrudController extends CrudController
             'name'=>'service_description',
             'type'=>'textarea',
             'label'=>'Description du service'
+        ]);
+        CRUD::addField([
+            'name'=>'service_detail',
+            'type'=>'tinymce',
+            'label'=>'Detail du service'
         ]);
         CRUD::addField([
             'name'=>'service_topActif',

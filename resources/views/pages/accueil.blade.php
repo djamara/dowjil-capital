@@ -41,7 +41,7 @@
                             <p>
                                 {{$inspiration->inspirationDescription}}
                             </p>
-                            <p><a href="#" class="btn btn-primary py-3 px-4">Contact us</a></p>
+                            <p><a href="/Contacts" class="btn btn-primary py-3 px-4">Contactez nous</a></p>
                         </div>
                     </div>
                 </div>
@@ -88,7 +88,7 @@
         <div class="container">
             <div class="row justify-content-center mb-5">
                 <div class="col-md-10 text-center heading-section heading-section-white ftco-animate">
-                    <h2 class="mb-0">Nos présentons toujours les meilleurs performances</h2>
+                    <h2 class="mb-0">Nous présentons toujours les meilleures performances</h2>
                 </div>
             </div>
         </div>
@@ -238,16 +238,16 @@
                 <div class="col-md-6 py-5 px-md-5">
                     <div class="py-md-5">
                         <div class="heading-section heading-section-white ftco-animate mb-5">
-                            <h2 class="mb-4">Request A Quote</h2>
-                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                            <h2 class="mb-4">Suggestion</h2>
+                            <p>Vous pouvez toujours nous contacter</p>
                         </div>
                         <form action="#" class="appointment-form ftco-animate">
                             <div class="d-md-flex">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="First Name">
+                                    <input type="text" class="form-control" placeholder="Nom">
                                 </div>
                                 <div class="form-group ml-md-4">
-                                    <input type="text" class="form-control" placeholder="Last Name">
+                                    <input type="text" class="form-control" placeholder="Prenom">
                                 </div>
                             </div>
                             <div class="d-md-flex">
@@ -256,7 +256,7 @@
                                         <div class="select-wrap">
                                             <div class="icon"><span class="ion-ios-arrow-down"></span></div>
                                             <select name="" id="" class="form-control">
-                                                <option value="">Select Guidance</option>
+                                                <option value="">Choisissez votre requête</option>
                                                 <option value="">Finance</option>
                                                 <option value="">Business</option>
                                                 <option value="">Auto Loan</option>
@@ -275,7 +275,7 @@
                                     <textarea name="" id="" cols="30" rows="2" class="form-control" placeholder="Message"></textarea>
                                 </div>
                                 <div class="form-group ml-md-4">
-                                    <input type="submit" value="Request A Quote" class="btn btn-white py-3 px-4">
+                                    <input type="submit" value="Valider" class="btn btn-white py-3 px-4">
                                 </div>
                             </div>
                         </form>
@@ -289,8 +289,8 @@
         <div class="container">
             <div class="row justify-content-center mb-5">
                 <div class="col-md-8 text-center heading-section ftco-animate">
-                    <h2 class="mb-4">Our Clients Says</h2>
-                    <p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
+                    <h2 class="mb-4">Ce que nos clients disent à propos de nous</h2>
+                    <p></p>
                 </div>
             </div>
             <div class="row ftco-animate justify-content-center">

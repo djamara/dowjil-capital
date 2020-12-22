@@ -7,7 +7,7 @@
             <div class="row no-gutters slider-text align-items-center justify-content-center">
                 <div class="col-md-9 ftco-animate text-center">
                     <h1 class="mb-2 bread">Contactez nous</h1>
-                    <p class="breadcrumbs"><span class="mr-2"><a href="#">Accueil<i class="ion-ios-arrow-forward"></i></a></span> <span>Contact <i class="ion-ios-arrow-forward"></i></span></p>
+                    <p class="breadcrumbs"><span class="mr-2"><a href="/">Accueil<i class="ion-ios-arrow-forward"></i></a></span> <span>Contact <i class="ion-ios-arrow-forward"></i></span></p>
                 </div>
             </div>
         </div>
@@ -23,14 +23,14 @@
                                 <span class="icon-map-o"></span>
                             </div>
                             <p><span>Adresse:</span>
-                            Cocody Riviera Palmeraie carrefour GUIRAUD</p>
+                            Cocody Riviera Palmeraie Carrefour GUIRAUD</p>
                         </div>
                         <div class="col-md-4 text-center border-height py-4">
                             <div class="icon">
                                 <span class="icon-mobile-phone"></span>
                             </div>
-                            <p><span>Telephone:</span> <a href="tel://">+225 23498101</a> <br>
-                                <a href="tel://">+225 59067594</a>
+                            <p><span>Telephone:</span> <a href="tel://">+225 23 498 101</a> <br>
+
                             </p>
                         </div>
                         <div class="col-md-4 text-center py-4">

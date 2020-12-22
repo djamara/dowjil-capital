@@ -7,7 +7,7 @@
             <div class="row no-gutters slider-text align-items-center justify-content-center">
                 <div class="col-md-9 ftco-animate text-center">
                     <h1 class="mb-2 bread">A propos de nous</h1>
-                    <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>A propos de nous <i class="ion-ios-arrow-forward"></i></span></p>
+                    <p class="breadcrumbs"><span class="mr-2"><a href="/">Accueil <i class="ion-ios-arrow-forward"></i></a></span> <span>A propos de nous <i class="ion-ios-arrow-forward"></i></span></p>
                 </div>
             </div>
         </div>
@@ -22,19 +22,22 @@
                         <div class="text">
                             <h3>{{$inspiration->inspirationTitre}}</h3>
                             <p>{{$inspiration->inspirationDescription}}</p>
-                            <p><a href="#" class="btn btn-primary py-3 px-4">Contact us</a></p>
+                            <p><a href="/Contacts" class="btn btn-primary py-3 px-4">Contactez nous</a></p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-7 wrap-about pr-md-4 ftco-animate">
-                    <h2 class="mb-4">{{$motivation->AboutTitre}}</h2>
-                    <p>{!! $motivation->AboutContenu !!}</p>
+                        @foreach($motivation as $motivation)
+                        <h2 class="mb-4">{{$motivation->AboutTitre}}</h2>
+                        <p>{!! $motivation->AboutContenu !!}</p>
+                        @endforeach
                 </div>
+
             </div>
         </div>
     </section>
 
-    <section class="ftco-section ftco-counter">
+   {{-- <section class="ftco-section ftco-counter">
         <div class="container">
             <div class="row justify-content-center mb-5 pb-2 d-flex">
                 <div class="col-md-6 align-items-stretch d-flex">
@@ -52,13 +55,13 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>--}}
 
     <section class="ftco-intro ftco-no-pb img" style="height: 350px;background-image: url({{asset('frontend/images/bg_3.jpg')}});">
         <div class="container">
             <div class="row justify-content-center mb-5">
                 <div class="col-md-10 text-center heading-section heading-section-white ftco-animate">
-                    <h2 class="mb-0">Nos présentons toujours les meilleurs performances</h2>
+                    <h2 class="mb-0">Nous présentons toujours les meilleures performances</h2>
                 </div>
             </div>
         </div>

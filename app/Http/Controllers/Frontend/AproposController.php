@@ -12,7 +12,7 @@ class AproposController extends Controller
     //
     public function index(){
         $inspiration = Inspiration::all()->first();
-        $motivation = AboutUs::all()->first();
+        $motivation = AboutUs::all();
         return view('pages/apropos',
             array(
                 "inspiration"=>$inspiration,

@@ -7,7 +7,7 @@
             <div class="row no-gutters slider-text align-items-center justify-content-center">
                 <div class="col-md-9 ftco-animate text-center">
                     <h1 class="mb-2 bread">Services</h1>
-                    <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Services <i class="ion-ios-arrow-forward"></i></span></p>
+                    <p class="breadcrumbs"><span class="mr-2"><a href="/">Accueil <i class="ion-ios-arrow-forward"></i></a></span> <span>Services <i class="ion-ios-arrow-forward"></i></span></p>
                 </div>
             </div>
         </div>
@@ -21,7 +21,7 @@
                     <p>{!! $introduction->introductionDescription !!}</p>
                 </div>
             </div>
-            <div class="row no-gutters">
+            <div class="row no-gutters">-
                 @foreach($services as $service)
                     <div class="col-lg-4 d-flex">
                     <div class="services-2 noborder-left text-center ftco-animate">

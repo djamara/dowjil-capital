@@ -15,9 +15,11 @@ use Illuminate\Http\Request;
 
 class AccueilController extends Controller
 {
+
+    protected $layout = 'layout';
     //
     public function index(){
-        $infoGeneral  = InformationGenerale::all();
+        $infoGeneral  = InformationGenerale::all()->first();
         $slide = Slideaccueil::all();
         $presentation = Presentation::all()->first();
         $inspiration = Inspiration::all()->first();
@@ -25,6 +27,7 @@ class AccueilController extends Controller
         $specialites = Specialite::all();
         $clients = Clientcomment::all();
         $introduction = IntroService::all()->first();
+
 
 
         return view('pages/accueil')->with([

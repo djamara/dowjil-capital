@@ -31,6 +31,14 @@
             </div>
             <div class="col-lg-8 d-block">
                 <div class="row d-flex">
+                    <div class="col-md-3 d-flex topper align-items-center align-items-stretch py-md-4">
+                        <div class="icon d-flex justify-content-center align-items-center"><span class="icon-language"></span></div>
+                        <div class="text" style="color: white">
+                            <span>Langue</span>
+                            <span><a href="" style="color: white">FR</a></span>
+                            <span><a href="" style="color: white">ENG</a></span>
+                        </div>
+                    </div>
                     <div class="col-md d-flex topper align-items-center align-items-stretch py-md-4">
                         <div class="icon d-flex justify-content-center align-items-center"><span class="icon-paper-plane"></span></div>
                         <div class="text" style="color: white">
@@ -42,9 +50,10 @@
                         <div class="icon d-flex justify-content-center align-items-center"><span class="icon-phone2"></span></div>
                         <div class="text" style="color: white">
                             <span>Appel</span>
-                            <span>Appelez-nous: +225 01014391</span>
+                            <span>Appelez-nous: +225 23 498 101</span>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
@@ -81,8 +90,8 @@
                     <h2 class="ftco-heading-2">Vous avez des questions?</h2>
                     <div class="block-23 mb-3">
                         <ul>
-                            <li><span class="icon icon-map-marker"></span><span class="text">Cocody Riviera Palmeraie carrefour GUIRAUD</span></li>
-                            <li><a href="#"><span class="icon icon-phone"></span><span class="text">+225 59067594</span></a></li>
+                            <li><span class="icon icon-map-marker"></span><span class="text">Cocody Riviera Palmeraie Carrefour GUIRAUD</span></li>
+                            <li><a href="#"><span class="icon icon-phone"></span><span class="text">+225 23 498 101</span></a></li>
                             <li><a href="#"><span class="icon icon-envelope"></span><span class="text">infos@dowjilcapital.com</span></a></li>
                         </ul>
                     </div>
